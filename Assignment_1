@@ -6,13 +6,13 @@
 class Pair {
   public:
     // Public members
-    double a;
-    double b;
+    int a;
+    int b;
 
     // Methods
     double sum();
-    void setLengthA(double a);
-    void setLengthB(double b);
+    void setLengthA(int a);
+    void setLengthB(int b);
 };
 
 // Method definitions
@@ -20,11 +20,11 @@ double Pair::sum() {
   return a + b;
 }
 
-void Pair::setLengthA(double a_) {
+void Pair::setLengthA(int a_) {
   a = a_;
 }
 
-void Pair::setLengthB(double b_) {
+void Pair::setLengthB(int b_) {
   b = b_;
 }
 
